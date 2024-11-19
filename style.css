@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.clear { clear: both; }
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    min-height: 800px;
+    min-height: 800px;
+    background-image: url('images/person-front-computer-working-html.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav.menu-desktop ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    padding-top: 24px;
+}
+
+nav.menu-desktop ul li {
+    margin-right: 20px;
+}
+
+nav.menu-desktop ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+nav.menu-desktop ul li a:hover {
+    text-decoration: underline;
+}
+
+nav.menu-desktop .login-btn {
+    text-decoration: underline;
+}
+
+.cadastro-btn {
+    background-color: #1B3B5F;
+    padding: 14px 25px;
+    border-radius: 5px;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+.cadastro-btn:hover {
+    background-color: #2C5A77;
+}
+
+.chamada1 {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background: linear-gradient(to bottom,  #4272aa6b, rgba(27, 59, 95, 0));
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.chamada1 h1 {
+    font-size: 2.6rem;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+}
+
+.chamada1 h1 > span {
+    font-size: 1.9rem;
+}
+
+.chamada1 .linha {
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+}
+
+.linha::before, .linha::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 2px;
+    background-color: #BCCCDC;
+}
+
+.linha::before {
+    left: -19px;
+}
+
+.linha::after {
+    right: -19px;
+}
+
+.chamada1 p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #BCCCDC;
+}
+
+.btn-quem-somos {
+    display: inline-block;
+    padding: 19px 27px;
+    background-color: #1B3B5F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.btn-quem-somos:hover {
+    background-color: #2C5A77;
+}
+
+
+
