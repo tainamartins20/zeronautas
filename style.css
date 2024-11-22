@@ -21,7 +21,7 @@ header {
     width: 100%;
     height: 90vh;
     min-height: 800px;
-    background-image: url('images/person-front-computer-working-html.jpg');
+    background-image: url('images/fundo-header.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -127,7 +127,7 @@ nav.menu-desktop .login-btn {
 .chamada1 p {
     font-size: 20.8px;
     margin-bottom: 30px;
-    color: #BCCCDC;
+    color: #97a4b1;
 }
 
 .btn-quem-somos {
@@ -202,12 +202,10 @@ right: -22px;
     width: 290px;
     height: 366px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background: linear-gradient(to bottom, #102A43, #1B3B5F);
-    border: 1px solid #2C5A77;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -219,26 +217,26 @@ right: -22px;
 .sessao1 .card i {
     font-size: 30px;
     margin-bottom: 16px;
-    color: white;
+    color: #102A43;
 }
 
 .sessao1 .card h3 {
     font-size: 23px;
     margin-bottom: 15px;
-    color: white;
+    color: #102A43;
     font-weight: normal;
 }
 
 .sessao1 .card p, ul li {
     font-size: 17px;
-    color: #BCCCDC;
+    color: #97a4b1;
     font-weight: normal;
     list-style-type: none;
     text-align: left;
 }
 
 .sessao1 .card ul li > strong {
-    color: white;
+    color: #102A43;
     font-weight: normal;
 }
 
